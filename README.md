@@ -26,3 +26,28 @@ Copy the `CainCyberLabsAuditor.ps1` script to the machine you wish to audit. Ope
 **To audit a standalone server or workstation:**
 ```powershell
 .\CainCyberLabsAuditor.ps1 -Mode StandaloneServer -Verbose
+```
+**To audit a Domain Controller:**
+```powershell
+.\CainCyberLabsAuditor.ps1 -Mode DomainController -Verbose
+```
+## Understanding the Report
+The script generates a CSV report with the following columns:
+
+CheckID: A unique identifier for the audit check.
+
+Description: A plain-English description of the check being performed.
+
+Status: The result of the check (PASS, FAIL, SKIPPED, INFO, ERROR).
+
+CurrentValue: The actual setting found on the target system.
+
+ExpectedValue: The desired setting for compliance.
+
+Remediation: A brief, actionable suggestion for how to fix a failing check.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For support or consulting inquiries, please contact: Caincyberlabs email......
