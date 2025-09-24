@@ -1,4 +1,5 @@
-# CainCyberLabs Compliance Compass a PCI DSS Auditor v1.0 🛡️
+# Compliance Compass v1.0
+### PCI DSS Auditor by CainCyberLabs 🛡️
 
 A read-only PowerShell script designed to help system administrators and security professionals quickly audit their Windows systems against key technical controls from the PCI DSS v4.0 standard.
 
