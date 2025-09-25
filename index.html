@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compliance Compass by CainCyberLabs, LLC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Automate PCI DSS Audits. Reclaim Your Team's Time.</h1>
+        <p>The professional, read-only PowerShell auditor for IT managers and their teams, delivering a clear, actionable PCI DSS compliance report in minutes.</p>
+    </header>
+
+    <main>
+        <section id="problem">
+            <h2>Is This Your Team's Audit Cycle?</h2>
+            <p>Preparing for a PCI DSS audit often feels like a high-stakes, resource-draining marathon. Your best engineers are pulled off revenue-generating projects to spend days digging through dense vendor documentation and manually checking configurations across every in-scope system, knowing that a single missed setting could mean a failed audit.</p>
+            <p>This manual process is not just inefficient; it's a constant source of business risk and team frustration.</p>
+            <ul>
+                <li><strong>Wasted Engineering Hours:</strong> Your team spends between 8 to 16 hours of focused time per audit cycle on tedious manual checks instead of critical project work.</li>
+                <li><strong>Constant Audit Anxiety:</strong> You're not 100% confident your team has the specialized expertise to pass, and you worry that inconsistent, error-prone manual checks will miss a critical finding, putting the business at risk.</li>
+                <li><strong>Prohibitive Costs:</strong> You can't afford expensive, enterprise-grade security suites or a team of consultants, leaving your small team to handle the immense pressure alone.</li>
+                <li><strong>Plummeting Team Morale:</strong> The repetitive, thankless task of manual auditing drains your team's energy and causes morale to plummet with every cycle.</li>
+            </ul>
+        </section>
+
+        <section id="solution">
+            <h2>Introducing Compliance Compass: From Audit Anxiety to Actionable Clarity</h2>
+            <p>CainCyberLabs created Compliance Compass to end the cycle of manual audit frustration. It is a professional, read-only PowerShell script designed to help system administrators and security professionals quickly audit their Windows systems against key technical controls from the PCI DSS v4.0 standard. Built with the rigor and discipline of a DoD systems security engineer, it gives your team a fast, affordable, and 100% consistent way to verify your compliance posture.</p>
+            <ul>
+                <li><strong>Go From Days to Minutes:</strong> Stop losing 8-16 hours of engineering time per audit cycle. Run a comprehensive audit on a system and receive a professionally formatted CSV report in under 5 minutes.</li>
+                <li><strong>Replace Guesswork with Consistency:</strong> Eliminate the human error and variability of manual checks. Compliance Compass performs every check the exact same way, every single time, giving you trustworthy results you can use to prepare for an official assessment.</li>
+                <li><strong>Get Professional-Grade Results Without the Enterprise Price Tag:</strong> Stop choosing between inadequate tools and budget-breaking enterprise suites. Compliance Compass delivers the detailed, technically-sound results you need at a price that makes sense for your business.</li>
+                <li><strong>Empower Your Team:</strong> Free up your senior talent for critical tasks. Compliance Compass turns a complex, high-risk task requiring senior-level expertise into a simple, safe, and repeatable process that any member of your IT team can execute.</li>
+            </ul>
+        </section>
+
+        <section id="features">
+            <h2>How Compliance Compass Protects Your Business</h2>
+            <p>Compliance Compass isn't a black box. It's a transparent, targeted tool that performs the exact checks a real-world attacker or a professional auditor would. Here's a look at what it does and why it matters.</p>
+            
+            <div class="feature-block">
+                <h3>Insecure Services & Protocol Auditing</h3>
+                <p><strong>What it does:</strong> The script automatically scans for outdated and insecure services like Telnet and FTP, and deprecated protocols like SMBv1.</p>
+                <p><strong>Why it matters:</strong> These features are common, high-impact vulnerabilities. Telnet and FTP transmit credentials in cleartext, offering an easy win for an attacker on your network. SMBv1 was the entry point for major ransomware worms like WannaCry and NotPetya. Finding and eliminating them is a critical first step.</p>
+            </div>
+
+            <div class="feature-block">
+                <h3>Domain & Local Authentication Policy Auditing</h3>
+                <p><strong>What it does:</strong> It verifies that your domain and local password policies meet security best practices, checking for minimum length, complexity, and account lockout thresholds.</p>
+                <p><strong>Why it matters:</strong> Weak password and lockout policies are the number one cause of initial access for attackers using brute-force and password-spraying techniques. This check ensures your first line of defense is strong.</p>
+            </div>
+
+            <div class="feature-block">
+                <h3>Advanced Active Directory Auditing</h3>
+                <p><strong>What it does:</strong> Compliance Compass intelligently detects the presence of Fine-Grained Password Policies (FGPPs), ensuring you have full visibility into complex, tiered password policies in your environment.</p>
+                <p><strong>Why it matters:</strong> Basic tools often only check the Default Domain Policy, which can give a false sense of security. By identifying all FGPPs, our tool prevents you from being blindsided during an audit by an overriding policy you forgot about and proves it's built to handle real-world enterprise complexity.</p>
+            </div>
+
+            <div class="feature-block">
+                <h3>Professional, Actionable Reporting</h3>
+                <p><strong>What it does:</strong> It instantly generates a detailed CSV report with a clear `PASS`, `FAIL`, or `SKIPPED` status for every check. Each finding includes the current value, the expected value, and a brief, actionable remediation suggestion.</p>
+                <p><strong>Why it matters:</strong> This transforms a mountain of complex audit data into a simple to-do list. Your team doesn't have to waste time researching fixes; they know exactly what to do, enabling rapid remediation and providing clear documentation for auditors.</p>
+            </div>
+        </section>
+
+        <section id="cta" class="cta-section">
+            <h2>Get Your Engineer's Toolkit Today</h2>
+            <p>Stop the cycle of manual audits and reclaim your team's valuable time. Your one-time purchase of the Compliance Compass "Engineer's Toolkit" includes everything you need to start automating your PCI DSS audits immediately.</p>
+            
+            <p><strong>What's Included:</strong></p>
+            <ul>
+                <li>The `ComplianceCompass.ps1` CLI Tool</li>
+                <li>Full Documentation & User Guide</li>
+                <li>1 Year of Support & Minor Updates</li>
+            </ul>
+            
+            <div class="price">$1,499</div>
+            <p><em>(Perpetual License / One-Time Fee)</em></p>
+            
+            <p>The tool pays for itself after just two internal audit cycles.</p>
+            
+            <a href="#" class="cta-button">[ Get Instant Access Now ]</a>
+        </section>
+
+        <section id="credibility">
+            <h3>Built by a DoD Security Expert</h3>
+            <p>Compliance Compass was created by a U.S. Marine Corps veteran and career Cyber Systems Security Engineer with over a decade of experience hardening the nation's most critical systems. This tool is infused with the discipline, rigor, and real-world expertise required to secure Authority to Operate (ATO) within the DoD, built by an engineer who has lived and breathed STIGs and NIST 800-53 compliance.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CainCyberLabs, LLC. All rights reserved.</p>
+    </footer>
+
+</div> </body>
+</html>
