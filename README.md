@@ -94,4 +94,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For support, premium features, or consulting inquiries, please contact: `[Your Future Business Email Address]`
+For support, premium features, or consulting inquiries, please contact: `c.cain@caincyberlabs.com`
